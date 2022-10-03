@@ -4,7 +4,7 @@
   padding: 32px 0 32px;
 
 
-  background-image: url('/src/assets/images/bg_landing_a.webp');
+  background-image: url('assets/images/bg_landing_a.webp');
   background-size: cover;
   background-position: center;
 
@@ -24,7 +24,7 @@
   .socialContainer {}
 
   .countDownContainer {
-    background-image: url('/src/assets/images/count-down-bg.webp');
+    background-image: url('assets/images/count-down-bg.webp');
     background-size: cover;
     background-position: center;
     height: 130px;
@@ -63,7 +63,7 @@
   }
 
   .form {
-    background-image: url('/src/assets/images/signup-layer.webp');
+    background-image: url('assets/images/signup-layer.webp');
     width: 300px;
     height: 270px;
     background-position: center;
@@ -128,7 +128,7 @@
     align-items: center;
 
     .slideContainer {
-      background-image: url('/src/assets/images/phone.webp');
+      background-image: url('assets/images/phone.webp');
       background-size: cover;
       background-position: center;
       width: 500px;
@@ -183,7 +183,7 @@
 
 @media screen and (max-width: 576px) {
   .landingContainer {
-    background-image: url('/src/assets/images/bg_landing_a_mobile.webp');
+    background-image: url('assets/images/bg_landing_a_mobile.webp');
 
     .countDownContainer {
       width: 330px;

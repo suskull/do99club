@@ -34,7 +34,7 @@ const Download = () => {
   return (
     <div className={styles.downloadContainer}>
       <div className={styles.title}>
-        <img src="/src/assets/images/giftcode_title.webp" alt="" />
+        <img src="assets/images/giftcode_title.webp" alt="" />
       </div>
       <div className={styles.items}>
         {

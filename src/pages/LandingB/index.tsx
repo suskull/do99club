@@ -21,15 +21,15 @@ export default function LandingB() {
   return (
     <div className={styles.landingBContainer}>
       <div className={styles.logo}>
-        <img src='src/assets/images/icon.webp' className={styles.date} />
+        <img src='assets/images/icon.webp' className={styles.date} />
       </div>
       <div className={styles.text}>
-        <img src='src/assets/images/text_center_1.webp' className={styles.text1} />
-        <img src='src/assets/images/text_center_2.webp' className={styles.text2} />
+        <img src='assets/images/text_center_1.webp' className={styles.text1} />
+        <img src='assets/images/text_center_2.webp' className={styles.text2} />
 
       </div>
       <div className={styles.btn}>
-        <img src='src/assets/images/btn_giftcode.webp' />
+        <img src='assets/images/btn_giftcode.webp' />
       </div>
       <div className={styles.slides}>
         <Swiper
@@ -52,23 +52,23 @@ export default function LandingB() {
           <SwiperSlide>
             <div className={styles.slideCol}>
               <div className={styles.colItem}>
-                <img src={'/src/assets/images/group1/tai-xiu.webp'} />
-                <img src={'/src/assets/images/group1/ba-cay.webp'} />
+                <img src={'assets/images/group1/tai-xiu.webp'} />
+                <img src={'assets/images/group1/ba-cay.webp'} />
               </div>
               <div className={styles.colItem}>
-                <img src={'/src/assets/images/group1/baucua.webp'} />
-                <img src={'/src/assets/images/group1/magic.webp'} />
+                <img src={'assets/images/group1/baucua.webp'} />
+                <img src={'assets/images/group1/magic.webp'} />
               </div>
               <div className={classNames(styles.colItem, styles.special)}>
-                <img src={'/src/assets/images/group1/banca.webp'} />
+                <img src={'assets/images/group1/banca.webp'} />
               </div>
               <div className={styles.colItem}>
-                <img src={'/src/assets/images/group1/lo-de.webp'} />
-                <img src={'/src/assets/images/group1/mini-poker.webp'} />
+                <img src={'assets/images/group1/lo-de.webp'} />
+                <img src={'assets/images/group1/mini-poker.webp'} />
               </div>
               <div className={styles.colItem}>
-                <img src={'/src/assets/images/group1/thien-dia.webp'} />
-                <img src={'/src/assets/images/group1/avenger.webp'} />
+                <img src={'assets/images/group1/thien-dia.webp'} />
+                <img src={'assets/images/group1/avenger.webp'} />
               </div>
             </div>
           </SwiperSlide>
@@ -76,19 +76,19 @@ export default function LandingB() {
           <SwiperSlide>
             <div className={styles.slideCol}>
               <div className={styles.colItem}>
-                <img src={'/src/assets/images/group2/co-mo.webp'} />
+                <img src={'assets/images/group2/co-mo.webp'} />
               </div>
               <div className={styles.colItem}>
-                <img src={'/src/assets/images/group2/xa-thu.webp'} />
+                <img src={'assets/images/group2/xa-thu.webp'} />
               </div>
               <div className={styles.colItem}>
-                <img src={'/src/assets/images/group2/lien-minh.webp'} />
+                <img src={'assets/images/group2/lien-minh.webp'} />
               </div>
               <div className={styles.colItem}>
-                <img src={'/src/assets/images/group2/tam-quoc.webp'} />
+                <img src={'assets/images/group2/tam-quoc.webp'} />
               </div>
               <div className={styles.colItem}>
-                <img src={'/src/assets/images/group2/yu-gi.webp'} />
+                <img src={'assets/images/group2/yu-gi.webp'} />
               </div>
             </div>
           </SwiperSlide>
@@ -97,10 +97,10 @@ export default function LandingB() {
             !isMobile &&
             <>
               <div ref={navigationPrevRef} className={styles.btnPrev}>
-                <img src="/src/assets/images/arrow-left.webp" />
+                <img src="assets/images/arrow-left.webp" />
               </div>
               <div ref={navigationNextRef} className={styles.btnNext}>
-                <img src="/src/assets/images/arrow-right.webp" />
+                <img src="assets/images/arrow-right.webp" />
               </div>
             </>
           }

@@ -1,7 +1,7 @@
 .downloadContainer {
   width: 100%;
   min-height: 100vh;
-  background-image: url('/src/assets/images/bg_landing_c.webp');
+  background-image: url('assets/images/bg_landing_c.webp');
   background-size: cover;
   background-position: center;
   display: flex;
@@ -97,7 +97,7 @@
 
 @media screen and (max-width: 576px) {
   .downloadContainer {
-    background-image: url('/src/assets/images/bg_landing_c_mobile.webp');
+    background-image: url('assets/images/bg_landing_c_mobile.webp');
 
     .title {
       width: 90%;

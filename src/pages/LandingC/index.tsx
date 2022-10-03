@@ -14,37 +14,37 @@ const LandingC = () => {
       <div className={'d-flex flex-column align-items-center gap-3'}>
         <div className={styles.top}>
           <div className={styles.groupLeft}>
-            <img src="/src/assets/images/icon-tele.webp" alt="" width={32} height={24} />
+            <img src="assets/images/icon-tele.webp" alt="" width={32} height={24} />
             <div className={styles.breadCrumb} />
             <span>TELE</span>
           </div>
 
           <div className={styles.group}>
-            <img src="/src/assets/images/icon.webp" alt="" />
+            <img src="assets/images/icon.webp" alt="" />
           </div>
 
           <div className={styles.groupRight}>
             <span>GROUP</span>
             <div className={styles.breadCrumb} />
-            <img src="/src/assets/images/icon-group.webp" alt="" width={36} height={24} />
+            <img src="assets/images/icon-group.webp" alt="" width={36} height={24} />
           </div>
         </div>
         <div className={styles.text}>
-          <img src="/src/assets/images/text_landing_c.webp" alt="" />
+          <img src="assets/images/text_landing_c.webp" alt="" />
         </div>
         <div className={styles.btnContainer}>
           <div className={styles.btn}>
-            <img src="/src/assets/images/download-android.webp" alt="" />
+            <img src="assets/images/download-android.webp" alt="" />
           </div>
           <div className={styles.btn}>
-            <img src="/src/assets/images/download-ios.webp" alt="" />
+            <img src="assets/images/download-ios.webp" alt="" />
           </div>
           <div className={styles.btn}>
-            <img src="/src/assets/images/playnow.webp" alt="" />
+            <img src="assets/images/playnow.webp" alt="" />
           </div>
         </div>
         <div className={styles.content}>
-          <img src="/src/assets/images/content_landing_c.webp" alt="" />
+          <img src="assets/images/content_landing_c.webp" alt="" />
         </div>
 
       </div>

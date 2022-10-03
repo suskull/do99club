@@ -35,10 +35,10 @@ export default function LandingA() {
           ? (
             <div className="d-flex">
               <Col xs={12} className={styles.contentContainer}>
-                <img src='src/assets/images/icon.webp' className={styles.logo} />
+                <img src='assets/images/icon.webp' className={styles.logo} />
                 <div className={'d-flex flex-column align-items-center gap-2'}>
-                  <img src='src/assets/images/start_date.webp' className={styles.date} />
-                  <img src='src/assets/images/end_date.webp' className={styles.date} />
+                  <img src='assets/images/start_date.webp' className={styles.date} />
+                  <img src='assets/images/end_date.webp' className={styles.date} />
                 </div>
                 <div className={styles.countDownContainer}>
                   <FlipClockCountdown
@@ -48,7 +48,7 @@ export default function LandingA() {
                     duration={1}
                   />
                 </div>
-                <img src='src/assets/images/downloadgame.webp' className={styles.btnDownload} />
+                <img src='assets/images/downloadgame.webp' className={styles.btnDownload} />
                 <div className={styles.form}>
                   <form id="form-submit" onSubmit={(e: any) => e.preventDefault()} >
                     <input
@@ -69,8 +69,8 @@ export default function LandingA() {
                   </form>
                 </div>
                 <div className={styles.social}>
-                  <img src='src/assets/images/facebook.webp' className={styles.socialIcon} />
-                  <img src='src/assets/images/telegram.webp' className={styles.socialIcon} />
+                  <img src='assets/images/facebook.webp' className={styles.socialIcon} />
+                  <img src='assets/images/telegram.webp' className={styles.socialIcon} />
                 </div>
               </Col>
             </div>
@@ -99,10 +99,10 @@ export default function LandingA() {
                 </div>
               </Col>
               <Col md={4} className={styles.contentContainer}>
-                <img src='src/assets/images/icon.webp' className={styles.logo} />
+                <img src='assets/images/icon.webp' className={styles.logo} />
                 <div className={'d-flex flex-column align-items-center gap-2'}>
-                  <img src='src/assets/images/start_date.webp' className={styles.date} />
-                  <img src='src/assets/images/end_date.webp' className={styles.date} />
+                  <img src='assets/images/start_date.webp' className={styles.date} />
+                  <img src='assets/images/end_date.webp' className={styles.date} />
                 </div>
                 <div className={styles.countDownContainer}>
                   <FlipClockCountdown
@@ -135,28 +135,28 @@ export default function LandingA() {
                       <SwiperSlide>
                         <div className="d-flex align-items-center justify-content-center">
                           <div className={styles.colItem}>
-                            <img src={'/src/assets/images/slide1.webp'} />
+                            <img src={'assets/images/slide1.webp'} />
                           </div>
                         </div>
 
                       </SwiperSlide>
 
                       <div ref={navigationPrevRef} className={styles.btnPrev}>
-                        <img src="/src/assets/images/arrow-left.webp" />
+                        <img src="assets/images/arrow-left.webp" />
                       </div>
                       <div ref={navigationNextRef} className={styles.btnNext}>
-                        <img src="/src/assets/images/arrow-right.webp" />
+                        <img src="assets/images/arrow-right.webp" />
                       </div>
 
                     </Swiper>
                   </div>
-                  <img src='src/assets/images/downloadgame.webp' className={styles.btnDownload} />
+                  <img src='assets/images/downloadgame.webp' className={styles.btnDownload} />
                 </div>
               </Col>
               <Col md={4} className={styles.socialContainer}>
                 <div className={styles.social}>
-                  <img src='src/assets/images/facebook-mobile.webp' className={styles.socialIcon} />
-                  <img src='src/assets/images/telegram-mobile.webp' className={styles.socialIcon} />
+                  <img src='assets/images/facebook-mobile.webp' className={styles.socialIcon} />
+                  <img src='assets/images/telegram-mobile.webp' className={styles.socialIcon} />
                 </div>
               </Col>
 
