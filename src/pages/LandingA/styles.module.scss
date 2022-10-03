@@ -1,0 +1,237 @@
+.landingContainer {
+  width: 100%;
+  min-height: 100vh;
+  padding: 32px 0 32px;
+
+
+  background-image: url('/src/assets/images/bg_landing_a.webp');
+  background-size: cover;
+  background-position: center;
+
+  .contentContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+  }
+
+
+  .registerContainer {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .socialContainer {}
+
+  .countDownContainer {
+    background-image: url('/src/assets/images/count-down-bg.webp');
+    background-size: cover;
+    background-position: center;
+    height: 130px;
+    width: 100%;
+
+    :global {
+      ._qWTcH {
+        display: flex;
+        padding: 16px 30px;
+
+        ._3cpN7 {
+          flex: 1;
+
+          ._2EBbg {
+            width: 50%;
+            height: 50px;
+          }
+        }
+
+      }
+    }
+  }
+
+
+  .logo {
+    width: 33%;
+  }
+
+  .date {
+    width: 75%;
+  }
+
+  .btnDownload {
+    width: 75%;
+    animation: zoom-in-zoom-out 1s ease infinite;
+  }
+
+  .form {
+    background-image: url('/src/assets/images/signup-layer.webp');
+    width: 300px;
+    height: 270px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    form {
+      margin-top: 70px;
+    }
+
+    .btnSubmit {
+      border-radius: 12px;
+      width: 80%;
+      font-weight: bold;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: left;
+      border: none;
+      margin-bottom: 15px;
+      background-image: linear-gradient(#bbf705, #22bd04, #bbf705);
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    .input {
+      font-family: Arial, FontAwesome;
+      padding-left: 10px;
+      border-radius: 12px;
+      width: 80%;
+
+      padding-top: 5px;
+      padding-bottom: 5px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: left;
+      border: none;
+      margin-bottom: 15px;
+      background-color: #d6d6d6;
+    }
+  }
+
+
+  .social {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+
+
+    .socialIcon {
+      width: 100px;
+    }
+  }
+
+  .slide {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .slideContainer {
+      background-image: url('/src/assets/images/phone.webp');
+      background-size: cover;
+      background-position: center;
+      width: 500px;
+      height: 250px;
+
+      .colItem {
+        width: 342px;
+        height: 190px;
+        margin-top: 20px;
+
+        img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+
+      .btnPrev {
+        width: 30px;
+        height: 42px;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-25%);
+        left: 47px;
+        z-index: 9999;
+
+        img {
+          width: 100%;
+        }
+      }
+
+      .btnNext {
+        width: 30px;
+        height: 42px;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-25%);
+        right: 47px;
+        z-index: 9999;
+
+        img {
+          width: 100%;
+        }
+      }
+
+
+    }
+  }
+
+
+
+}
+
+@media screen and (max-width: 576px) {
+  .landingContainer {
+    background-image: url('/src/assets/images/bg_landing_a_mobile.webp');
+
+    .countDownContainer {
+      width: 330px;
+      height: 75px;
+
+      :global {
+        ._qWTcH {
+          padding: 0 30px;
+          height: 110%;
+
+          ._3cpN7 {
+
+            ._2EBbg {
+              height: 30px;
+              font-size: 26px;
+            }
+          }
+
+        }
+      }
+    }
+
+    .btnDownload {
+      width: 50%;
+    }
+
+    .social {
+      flex-direction: row;
+      margin-top: 10px;
+
+      .socialIcon {
+        width: 130px;
+      }
+    }
+  }
+
+}
+
+@keyframes zoom-in-zoom-out {
+  0% {
+    transform: scale(1, 1);
+  }
+
+  50% {
+    transform: scale(1.3, 1.3);
+  }
+
+  100% {
+    transform: scale(1, 1);
+  }
+}

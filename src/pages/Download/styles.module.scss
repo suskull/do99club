@@ -1,0 +1,111 @@
+.downloadContainer {
+  width: 100%;
+  min-height: 100vh;
+  background-image: url('/src/assets/images/bg_landing_c.webp');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 32px;
+
+  .title {
+    width: 50%;
+    margin-bottom: 16px;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  .items {
+    .item {
+      margin-bottom: 16px;
+
+      .label {
+        font-size: 22px;
+        max-width: max-content;
+        padding-left: 16px;
+        padding-right: 32px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 50px;
+        background: rgb(250, 245, 0);
+        background: linear-gradient(180deg, rgba(250, 245, 0, 1) 0%, rgba(255, 250, 2, 1) 35%, rgba(184, 171, 11, 1) 72%, rgba(149, 156, 157, 1) 100%);
+        font-family: "UTM";
+      }
+
+      .value {
+        background-image: -moz-linear-gradient(90deg, rgb(93, 3, 65) 1%, rgb(55, 1, 29) 54%, rgb(150, 0, 28) 100%);
+        background-image: -webkit-linear-gradient(90deg, rgb(93, 3, 65) 1%, rgb(55, 1, 29) 54%, rgb(150, 0, 28) 100%);
+        background-image: -ms-linear-gradient(90deg, rgb(93, 3, 65) 1%, rgb(55, 1, 29) 54%, rgb(150, 0, 28) 100%);
+        box-shadow: inset 0px 2px 22.32px 1.68px rgba(220, 28, 255, 0.5);
+        padding: 16px;
+        border-radius: 10px;
+        border-top-left-radius: 0;
+
+
+        span {
+          font-size: 18px;
+          font-family: "UTM";
+          color: rgb(255, 254, 255);
+          line-height: 1.44;
+          -moz-transform: matrix(2.19756602317468, 0, 0, 2.19756602317468, 0, 0);
+          -webkit-transform: matrix(2.19756602317468, 0, 0, 2.19756602317468, 0, 0);
+          -ms-transform: matrix(2.19756602317468, 0, 0, 2.19756602317468, 0, 0);
+        }
+
+      }
+    }
+
+  }
+
+  .note {
+    text-align: justify;
+    color: white;
+    font-style: italic;
+    width: 500px;
+
+    &::before {
+      display: inline-block;
+      margin-left: 4px;
+      margin-top: 4px;
+      color: white;
+      font-size: 14px;
+      font-family: SimSun, sans-serif;
+      line-height: 1;
+      content: "*";
+    }
+
+  }
+
+  img {
+    width: 100%;
+    height: 100%;
+  }
+
+}
+
+
+.Nhận_code_tân_thủ {
+
+  position: absolute;
+  left: 447.705px;
+  top: 2340.601px;
+  z-index: 63;
+}
+
+
+@media screen and (max-width: 576px) {
+  .downloadContainer {
+    background-image: url('/src/assets/images/bg_landing_c_mobile.webp');
+
+    .title {
+      width: 90%;
+    }
+
+    .note {
+      width: unset;
+    }
+
+  }
+}
