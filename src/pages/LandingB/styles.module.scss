@@ -1,6 +1,6 @@
 .landingBContainer {
   width: 100vw;
-  height: 100vh;
+  min-height: 100vh;
   background-image: url('/assets/images/bg_landing_b.webp');
   background-size: cover;
   background-position: center;
@@ -8,6 +8,7 @@
   flex-direction: column;
   align-items: center;
   gap: 16px;
+  padding-bottom: 32px;
 
   .logo {
     background-size: cover;
@@ -22,7 +23,7 @@
   .text {
     background-size: cover;
     background-position: center;
-    width: 50%;
+    width: 40%;
     display: flex;
     flex-direction: column;
     align-items: center;
