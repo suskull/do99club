@@ -1,7 +1,7 @@
 .landingBContainer {
   width: 100vw;
   height: 100vh;
-  background-image: url('assets/images/bg_landing_b.webp');
+  background-image: url('/assets/images/bg_landing_b.webp');
   background-size: cover;
   background-position: center;
   display: flex;
@@ -103,7 +103,7 @@
 @media screen and (max-width: 576px) {
   .landingBContainer {
     padding-top: 32px;
-    background-image: url('assets/images/bg_landing_b_mobile.webp');
+    background-image: url('/assets/images/bg_landing_b_mobile.webp');
 
 
     .logo {
