@@ -1,6 +1,5 @@
 import React from 'react';
 import useViewport from 'hooks/common/useViewport';
-import { Col, Row } from 'react-bootstrap';
 
 import styles from './styles.module.scss';
 

@@ -61,9 +61,12 @@
   .btnContainer {
     display: flex;
     width: 33%;
+    gap: 8px;
 
     .btn {
       flex: 1;
+      animation: zoom-in-zoom-out 1s ease infinite;
+
 
       img {
         width: 100%;
@@ -145,6 +148,7 @@
 
       .btn {
         flex: 1;
+
 
         img {
           width: 100%;

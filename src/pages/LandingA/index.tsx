@@ -28,6 +28,23 @@ export default function LandingA() {
   const startTime = '2022/10/13 10:00:00';
   // prefix 14/10/2022
 
+  const images = [
+    'assets/images/m-1.webp',
+    'assets/images/m-2.webp',
+    'assets/images/m-3.webp',
+    'assets/images/m-4.webp',
+    'assets/images/m-5.webp',
+    'assets/images/m-6.webp',
+    'assets/images/m-7.webp',
+    'assets/images/m-8.webp',
+    'assets/images/m-9.webp',
+    'assets/images/m-10.webp',
+    'assets/images/m-11.webp',
+    'assets/images/m-12.webp',
+    'assets/images/m-13.webp',
+    'assets/images/m-14.webp'
+  ];
+
   return (
     <div className={styles.landingContainer}>
       {
@@ -127,19 +144,22 @@ export default function LandingA() {
                         swiper.params.navigation.prevEl = navigationPrevRef.current;
                         swiper.params.navigation.nextEl = navigationNextRef.current;
                       }}
-                      // autoplay={{
-                      //   delay: 3000
-                      // }}
+                      autoplay={{
+                        delay: 3000
+                      }}
                       slidesPerView={1}
                     >
-                      <SwiperSlide>
-                        <div className="d-flex align-items-center justify-content-center">
-                          <div className={styles.colItem}>
-                            <img src={'assets/images/slide1.webp'} />
+                      {
+                        images.map((image, index) => <SwiperSlide key={index}>
+                          <div className="d-flex align-items-center justify-content-center">
+                            <div className={styles.colItem}>
+                              <img src={image} />
+                            </div>
                           </div>
-                        </div>
+                        </SwiperSlide>)
+                      }
 
-                      </SwiperSlide>
+
 
                       <div ref={navigationPrevRef} className={styles.btnPrev}>
                         <img src="assets/images/arrow-left.webp" />
